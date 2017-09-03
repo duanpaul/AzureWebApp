@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://mynotesjecrc.github.io/</title>
+  <link>https://mynotesjecrc.github.io/</link>
+
+<item>
+     <link>https://mynotesjecrc.github.io/</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/home.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/instruction.html</link>
+     <title>W3.CSS Template</title>
+     <description>W3.CSS Template</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year1_term.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year2_term.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/contact.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year1_subject_insem1.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year1_subject_insem2.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year1_subject_endterm.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://mynotesjecrc.github.io/year2_subject_insem1.html</link>
+     <title>myNotes</title>
+     <description>myNotes</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
