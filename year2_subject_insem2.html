@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<title>myNotes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<style>
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 500px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+</style>
+
+<body style="background:#999;">
+<script type="text/javascript" src="//go.oclaserver.com/apu.php?zoneid=1394000"></script>
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader" style="background:url(Images/book1c.jpg);">
+  <div class="w3-center">
+ <a href="home.html" style="text-decoration:none;"><h1 class="w3-xxxlarge w3-animate-left" style="color:#6bb9f0">my<strong style="color:#4183d7;">Notes</strong></h1></a>
+    <div class="w3-padding-32 w3-animate-bottom">
+      <a class="w3-btn w3-xlarge w3-dark-grey w3-hover-red" href="instruction.html" style="font-weight:900;">Submit Notes</a>
+    </div>
+  </div>
+</header>
+
+<div class="w3-container w3-padding-16 w3-center" id="team">
+  <a href="#cse"><div class="w3-fifth" style="background-color: #333; color:#fff; border:2px solid black;">CSE</div></a>
+  <a href="#mech"><div class="w3-fifth" style="background-color: #333; color:#fff; border:2px solid black;">MECHANICAL</div></a>
+  <a href="#civil"><div class="w3-fifth" style="background-color: #333; color:#fff; border:2px solid black;">CIVIL</div></a>
+  <a href="#electrical"><div class="w3-fifth" style="background-color: #333; color:#fff; border:2px solid black;">ELECTRICAL</div></a>
+  <a href="#electronics"><div class="w3-fifth" style="background-color: #333; color:#fff; border:2px solid black;">ELECTRONICS</div></a>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div style="padding:0px 16px; margin: 0px 0px 500px 0px;">
+<div style="margin:35px 0; width:100%; height: 100px;" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="main">
+     <input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search for subjects.." title="Type in a name">
+
+<ul id="myUL" style="overflow: auto;">
+  <li><a id="cse" href="#" class="w3-XXlarge"><strong> CSE </strong></a></li>
+  <li><a href="#" class="header">Computer Networks</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGWjBNcVNVSFlzc00" target="_blank">CN notes</a></li>
+  <li><a href="#" class="header">Data Structure and Algorithms</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGc21aemdKS1ZaNlk" target="_blank" >DSA Notes insem 2</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGNl9mTDVRWkF3SUE" target="_blank" >DSA Book Complete (easy)</a></li>
+  <li><a href="#" class="header">Digital Systems</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGVXNVY1JjRjI1aVE" target="_blank">DSE notes insem 2</a></li> 
+  <li><a href="#" class="header">Discrete Mathematics</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGbnRNS0NJVFozdkk" target="_blank">DM notes insem 2</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGOHNXOFllWWxkRUk" target="_blank">DM book notes</a></li>
+  <li><a href="#" class="header">MALA</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGaHpPYmZreDFlVHc" target="_blank">MALA seema ma'am notes</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGUDhmcldONXpqdzA" target="_blank">MALA notes insem 2</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGaXpzMEt3N1VJZXc" target="_blank">MALA note (from line integral)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGUWliQlZfOTRmekU" target="_blank">MALA notes unit 4</a></li>
+  <li><a href="#" class="header">OOPs</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGR2wyVE1wTERCRGc" target="_blank">OOPs Principle of OOP</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGbkpxNkhBWWhneEk" target="_blank">OOPs Beginning with C++</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGZ3NVT0NpSGdIdmM" target="_blank">OOPs Tokens expressions and control Structure</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGZlJ6NGlocU1CRDQ" target="_blank">OOPs Functions in C++</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGOEpGZjU1V2E1WUk" target="_blank">OOPs Classes and Objects</a></li>
+  <li><a href="#" class="header">PS</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGUFdpeXVURXpXNVk" target="_blank">PS Notes</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGc2NPcVo1OXdOQW8" target="_blank">PS Notes (2)</a></li>
+  <li><a href="#" class="header">Software Engineering</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGUVRHNVVjYjNJOXc" target="_blank">SE Notes insem 2 (1)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGaXlLdWNCTm5McFU" target="_blank">SE Notes insem 2 (2)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGV0tNZFItd1I5djA" target="_blank">SE Notes unit 3</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGRGRqSkh2eTdYZXM" target="_blank">SE Notes unit 4</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGTU00RDYzUWlJN3c" target="_blank">Pressman__Software_Engineering</a></li>
+  <li><a id="mech" href="#" class="w3-XXlarge"><strong> MECHANICAL</strong></a></li>
+  <li><a href="#" class="header">Energy Studies</a></li>
+  <li><a href="#" class="header">Solid Mechanics</a></li>
+  <li><a href="#" class="header">Thermodynamics</a></li> 
+  <li><a href="#" class="header">Mechanics And Machines 1</a></li>
+  <li><a href="#" class="header">Engineering Materials</a></li>
+  <li><a href="#" class="header">MALA</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGWVEzV3hWRmlWQkU" target="_blank">MALA Unit 1</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGLWpRVHR2b1lKYXM" target="_blank">MALA Assignment Topicwise</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGTHlwX1ltVy1NY00" target="_blank">MALA Sec G Assignment (1)</a></li>
+  <li><a href="https://drive.google.com/open?id=0B5UEjYlK1JbGS3MzWEM2aVd2bzA" target="_blank">MALA notes by Lakshya Butta</a></li>
+  <li><a href="#" class="header">Primary Manufacturing</a></li>
+  <li><a href="#" class="header">PS</a></li>
+  <li><a id="civil" href="#" class="w3-XXlarge"><strong> CIVIL</strong></a></li>
+  <li><a href="#" class="header"> BMC 1 </a></li>
+  <li><a href="#" class="header"> Engineering Geology </a></li>
+  <li><a href="#" class="header"> Engineering Materials </a></li> 
+  <li><a href="#" class="header">  Energy Studies </a></li>
+  <li><a href="#" class="header"> Fluid Mechanics </a></li>
+  <li><a href="#" class="header">MALA</a></li>
+  <li><a href="#" class="header"> Solid Mechanics </a></li>
+  <li><a href="#" class="header">PS</a></li>
+  <li><a id="electrical" href="#" class="w3-XXlarge"><strong> ELECTRICAL</strong></a></li>
+  <li><a href="#" class="header">Energy Studies</a></li>
+  <li><a href="#" class="header">Solid Mechanics</a></li>
+  <li><a href="#" class="header">Thermodynamics</a></li> 
+  <li><a href="#" class="header">Mechanics And Machines 1</a></li>
+  <li><a href="#" class="header">Engineering Materials</a></li>
+  <li><a href="#" class="header">MALA</a></li>
+  <li><a href="#" class="header">Primary Manufacturing</a></li>
+  <li><a href="#" class="header">PS</a></li>
+  <li><a id="electronics" href="#" class="w3-XXlarge"><strong> ELECTRONICS</strong></a></li>
+  <li><a href="#" class="header">Energy Studies</a></li>
+  <li><a href="#" class="header"> Electronnics Device CIrcuit </a></li>
+  <li><a href="#" class="header"> Electric Measumements </a></li> 
+  <li><a href="#" class="header"> Instrumentation </a></li>
+  <li><a href="#" class="header"> Digital Electronics </a></li>
+  <li><a href="#" class="header">MALA</a></li>
+  <li><a href="#" class="header"> Network Thoery System </a></li>
+  <li><a href="#" class="header">PS</a></li>
+
+</ul>   
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+<div class="w3-col.m12 w3-row-padding w3-center w3-margin-bottom w3-padding-16" style="height: 125px; background:linear-gradient(to top, #333, #999); border-radius: 5px 5px 5px 5px;">
+    <form action="//github.us16.list-manage.com/subscribe/post?u=f0e9e6b9580cc67bd7c9fe141&amp;id=efaf6b298a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+      <label for="mce-EMAIL" style="color: black; margin-bottom:10px; font-family:Arial;">Subscribe to our mailing list</label><br>
+      <input type="email" value="" name="EMAIL" style="margin-bottom:10px; " class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f0e9e6b9580cc67bd7c9fe141_efaf6b298a" tabindex="-1" value=""></div>
+        <div class="clear"><input class="w3-btn w3-sand w3-hover-red"  type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+  </div>
+  <div style="float: left;">
+  <a class="w3-button w3-large w3-teal" href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank" ><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.youtube.com/channel/UCA_Zn2OB-IHT7KfpaS1BfnQ" target="_blank"><i class="fa fa-youtube"></i></a>
+  </div>
+  <h3 class="w3-hover-red" style="float:right; margin: 0; padding: 4px; background-color: #222; border-radius: 5px 5px 5px 5px;"><a style="color:#fff; text-decoration:none; font-family:Arial;" href="contact.html">About Us</a></h3>
+</footer>
+
+<script>
+function myFunction1() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+</body>
+</html>
